@@ -6,11 +6,11 @@
 /*   By: diolivei <diolivei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/09 16:03:46 by diolivei          #+#    #+#             */
-/*   Updated: 2024/05/15 15:16:51 by diolivei         ###   ########.fr       */
+/*   Updated: 2024/07/16 15:28:07 by diolivei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "libft.h"
 
 static char	*ft_collect(int fd, char *buf, char *save)
 {

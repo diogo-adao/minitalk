@@ -6,11 +6,11 @@
 /*   By: diolivei <diolivei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/06 19:53:32 by diolivei          #+#    #+#             */
-/*   Updated: 2024/05/21 15:33:17 by diolivei         ###   ########.fr       */
+/*   Updated: 2024/07/16 15:44:31 by diolivei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "libft.h"
 
 // ********** %c **********
 int	ft_putchar(int c)
