@@ -6,22 +6,22 @@
 /*   By: diolivei <diolivei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/15 14:11:42 by diolivei          #+#    #+#             */
-/*   Updated: 2024/07/16 18:33:01 by diolivei         ###   ########.fr       */
+/*   Updated: 2024/07/17 17:38:25 by diolivei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 42
-# endif
+# define THE_END '\0'
 
 # include <string.h>
 # include <stdlib.h>
 # include <unistd.h>
 # include <stdio.h>
 # include <stdarg.h>
+# include <signal.h>
+#include <sys/types.h>
 
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
@@ -84,6 +84,10 @@ int	ft_putpointer(unsigned long n, int base);
 int	ft_printf(const char *format, ...);
 
 // ----------- GET_NEXT_LINE -----------
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 42
+# endif
+
 char	*get_next_line(int fd);
 
 #endif
