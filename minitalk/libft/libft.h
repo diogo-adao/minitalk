@@ -6,14 +6,12 @@
 /*   By: diolivei <diolivei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/15 14:11:42 by diolivei          #+#    #+#             */
-/*   Updated: 2024/07/17 17:38:25 by diolivei         ###   ########.fr       */
+/*   Updated: 2024/07/18 18:36:32 by diolivei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
-
-# define THE_END '\0'
 
 # include <string.h>
 # include <stdlib.h>
