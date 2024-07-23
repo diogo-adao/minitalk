@@ -6,7 +6,7 @@
 /*   By: diolivei <diolivei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/15 14:11:42 by diolivei          #+#    #+#             */
-/*   Updated: 2024/07/18 18:36:32 by diolivei         ###   ########.fr       */
+/*   Updated: 2024/07/23 15:25:45 by diolivei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
 # include <signal.h>
 # include <sys/types.h>
 
-int		ft_atoi(const char *str);
+int	ft_atoi(const char *str);
 
 // ---------- PRINTF -------------
 int	ft_putchar(int c);
