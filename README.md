@@ -57,3 +57,6 @@ The server will receive and print:
 Hello World!
 ```
 
+## 👨‍💻 Author
+[Diogo Adão](https://github.com/diogo-adao)
+
