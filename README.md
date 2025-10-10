@@ -26,12 +26,12 @@ The goal is to transmit messages from one process to another without using socke
 
 ## 🧠 Key Concepts
 
-- **UNIX signals** – asynchronous software interrupts  
-- **Bitwise operations** – encoding and decoding characters bit by bit  
-- **Process IDs (PID)** – identifying and targeting processes  
-- **Asynchronous programming** – handling signals safely  
-- **System calls** – `kill()`, `pause()`, `sigaction()`, `getpid()`
-  
+- **UNIX signals** – using `SIGUSR1` and `SIGUSR2` to send information between processes  
+- **Bitwise operations** – encoding each character into 8 bits and reconstructing it on the server  
+- **Process IDs (PID)** – the client needs the server's PID to send signals  
+- **Signal handling** – using `signal()` to catch incoming signals and process them  
+- **Timing control** – using `usleep()` in the client to ensure signals arrive in order without being missed
+
 
 ## 🧩 Installation & Usage
 
