@@ -39,7 +39,7 @@ The goal is to transmit messages from one process to another without using socke
 git clone https://github.com/diogo-adao/minitalk.git
 
 # Go to the folder
-cd minitalk
+cd minitalk && cd minitalk
 
 # Build the project
 make
