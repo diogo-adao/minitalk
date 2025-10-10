@@ -48,6 +48,14 @@ make
 
 # Run the server
 ./server
+
 It will display its PID:
+PID: 12345
+
+# Send a message from the client
+./client 12345 "Hello World!"
+
+The server will receive and print:
+Hello World!
 ```
 
