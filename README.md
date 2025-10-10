@@ -21,7 +21,6 @@ The goal is to transmit messages from one process to another without using socke
 ✅ Transmission of full strings (including spaces and special characters)  
 ✅ Signal-based binary encoding (`SIGUSR1` = 1, `SIGUSR2` = 0)  
 ✅ Real-time message reconstruction on the server  
-✅ Robust error handling and signal safety  
 
 
 ## 🧠 Key Concepts
