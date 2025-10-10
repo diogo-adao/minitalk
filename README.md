@@ -48,7 +48,7 @@ make
 ./server
 
 It will display its PID:
-``PID: 12345``
+#PID: 12345
 
 # Open a new terminal and send a message from the client
 ./client 12345 "Hello World!"
